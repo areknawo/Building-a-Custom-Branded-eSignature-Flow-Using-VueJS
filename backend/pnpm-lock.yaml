@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   express: ^4.17.3
@@ -184,6 +184,8 @@ packages:
       qs: 6.9.7
       raw-body: 2.4.3
       type-is: 1.6.18
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /braces/2.3.2:
@@ -200,6 +202,8 @@ packages:
       snapdragon-node: 2.1.1
       split-string: 3.1.0
       to-regex: 3.0.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /bytes/3.1.2:
@@ -303,6 +307,11 @@ packages:
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
     dependencies:
       ms: 2.0.0
     dev: false
@@ -392,6 +401,8 @@ packages:
       regex-not: 1.0.2
       snapdragon: 0.8.2
       to-regex: 3.0.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /expect/24.9.0:
@@ -404,6 +415,8 @@ packages:
       jest-matcher-utils: 24.9.0
       jest-message-util: 24.9.0
       jest-regex-util: 24.9.0
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /express/4.17.3:
@@ -440,6 +453,8 @@ packages:
       type-is: 1.6.18
       utils-merge: 1.0.1
       vary: 1.1.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /extend-shallow/2.0.1:
@@ -469,6 +484,8 @@ packages:
       regex-not: 1.0.2
       snapdragon: 0.8.2
       to-regex: 3.0.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /fill-range/4.0.0:
@@ -492,6 +509,8 @@ packages:
       parseurl: 1.3.3
       statuses: 1.5.0
       unpipe: 1.0.0
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /for-in/1.0.2:
@@ -577,6 +596,8 @@ packages:
       expect: 24.9.0
       express: 4.17.3
       form-data: 2.5.1
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /http-errors/1.8.1:
@@ -740,6 +761,8 @@ packages:
       micromatch: 3.1.10
       slash: 2.0.0
       stack-utils: 1.0.5
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /jest-regex-util/24.9.0:
@@ -818,6 +841,8 @@ packages:
       regex-not: 1.0.2
       snapdragon: 0.8.2
       to-regex: 3.0.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /mime-db/1.51.0:
@@ -869,6 +894,8 @@ packages:
       regex-not: 1.0.2
       snapdragon: 0.8.2
       to-regex: 3.0.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /negotiator/0.6.3:
@@ -1026,6 +1053,8 @@ packages:
       on-finished: 2.3.0
       range-parser: 1.2.1
       statuses: 1.5.0
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /serve-static/1.14.2:
@@ -1036,6 +1065,8 @@ packages:
       escape-html: 1.0.3
       parseurl: 1.3.3
       send: 0.17.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /set-value/2.0.1:
@@ -1085,6 +1116,8 @@ packages:
       source-map: 0.5.7
       source-map-resolve: 0.5.3
       use: 3.1.1
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /source-map-resolve/0.5.3:
